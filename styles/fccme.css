@@ -1,0 +1,560 @@
+
+body{
+    margin: 0;
+    background-color:#1e1e33;
+}
+.title-bar{
+    height:38px;
+    margin-bottom: 10px;
+    display:flex;
+    flex-direction: row;
+    background-color: #0A0A23;
+    vertical-align: middle;
+    align-items: center;
+    position: fixed;
+    width:100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1000;
+    top:0px;
+    left: 0px;
+    right:0px;
+    bottom: 200px;
+    justify-content: center;
+}
+.left-section{
+    width: 600px;   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+.middle-section{
+    width:200px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+.right-section{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width:540px;
+}
+.search-bar{
+    background-color: #3B3B4F;
+    width: 429px;
+    height: 26px;
+    font-size: 18px;
+    font-family: Lato;
+    padding-left: 5px;
+    border-width: 0px;
+}
+.sign-in-button{
+    display: flex;
+    align-items: center;
+    background-color: rgb(254,204,76);
+    border-color: rgb(241,160,42);
+    font-family: Lato, sans-serif;
+    height:28px;
+    width: 81.45px;
+    padding-left:12px;
+    padding-right: 12px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-width:3px;
+    font-size:18px;
+    margin-left: 8px;
+}
+.menu-button{
+    display: flex;
+    align-items: center;
+    color:white;
+    border-radius: 1px;
+    border-width: 1px;
+    border-color: rgb(255,255,255);
+    background-color: #0A0A23;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 28px;
+    width: 72px;  
+    font-size: 18px;
+    margin-left:8px;
+    font-family: Lato;
+}
+.world-button{
+    background-color: #0A0A23;
+    height:28px;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    fill: white;
+}
+.cancel-search{
+    width: 38px;
+    height:28px;
+    background-color: #3B3B4F;
+    border-width: 0px;
+}
+.search-icon{
+    display: flex;
+    width: 26px;
+    height: 28px;
+    background-color:#3B3B4F;
+    padding-left: 3px;
+    border:inherit;
+    align-items: center;
+    justify-content: center;
+    border-color: #3B3B4F;
+}
+.language-change{
+    height:24px;
+    width:24px;
+    filter:invert(100%);    
+}
+.menu-button:hover{
+    background-color: white;
+    color:#0A0A23;
+    cursor: pointer;
+}
+.fcc-logo{
+    height:24px;
+}
+.search-icon-img{
+    background-color:#3B3B4FS;
+    height:14px;
+    width:14px;
+    padding:6px;
+    filter:invert(100%);
+    }
+
+.main{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.Heading{
+    margin-top: 120px;
+    color: white;
+    font-family: Lato,sans-serif;
+    font-size: 45px;
+    width:750px;
+    height:20px;
+}
+.Para{
+    color: white;
+    font-family: Lato,sans-serif;
+    font-size: 45px;
+    width:750px;
+    height:15px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 58px;
+}
+.Para1{
+    width:750px;
+    height:54px;
+    margin-top: 10.8px;
+    margin-bottom:10.8px;
+    font-family: Lato,sans-serif;
+    font-size: 23px;
+    color: white;
+    font-weight: bolder;
+}
+.logos{
+    display: flex;
+    width:750px;
+    height:50px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.apple-logo{
+    height:40px;
+    width:50px;
+    margin: 5px;
+    filter: invert(100%);
+}
+.google-logo{
+    height:40px;
+    width:80px;
+    margin: 5px;
+    filter: invert(100%);
+}
+.microsoft-logo{
+    height:40px;
+    width:120px;
+    margin: 5px;
+    filter: invert(100%);
+}
+.spotify-logo{
+    height:40px;
+    width:110px;
+    margin: 5px;
+    filter: invert(100%);
+}
+.amazon-logo{
+    height:40px;
+    width:115px;
+    margin: 5px;
+    filter: invert(100%);
+}
+ 
+.get-started{
+    height:54.5px;
+    width:500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Lato,sans-serif;
+    background-color:#FEAC32;
+    font-size: 27px;
+    color: #0a0a23;
+    border-width: 3px;
+    border-color: #F1A02A;
+}
+.ppl-img{
+    height: 442px;
+    width:750px;
+    margin-top: 65px;
+    margin-bottom: 5px;
+}
+.para3{
+    height: 25.7px;
+    width:750px;
+    font-family: Lato,sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+.as-seen{
+    height:150px;
+    background-color: #3B3B4F;
+    width: 100%;
+    padding-top:45px;
+    padding-bottom:60px;
+    padding-left: 15px;
+    padding-right:15px;
+    text-align:center;
+    font-family: Lato,sans-serif;
+    font-size: 45px;
+    color: white;
+    font-weight: bolder;
+    opacity: 80%;
+}
+.logos2{
+    height:71px;
+    margin-top:40px;
+    filter:invert(100%);
+}
+.test{
+    height: 320px;
+    width:1170px;
+    display: flex;
+    background-color: #0A0A23;
+    font-family: Lato,sans-serif;
+    color:#D0D0D5;
+    margin-top:67px;
+    margin-bottom:67x;
+    text-align: center;
+}
+.pic{
+    height:320px;
+    width:320px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.name{
+    font-size: 23.4px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.position{
+    font-size: 23.4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.review{
+    font-size: 19.8px;
+    margin-bottom: 10px;
+}
+.all-test{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+.alum{
+    text-align: center;
+    font-family: Lato,sans-serif;
+    font-size: 45px;
+    color: white;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+.text2{
+    height:100px;
+    width:790px;
+    font-family: Lato,sans-serif;
+    font-size: 45px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+.but{
+    height:80px;
+    width:790.8px;
+    background-color: #3B3B4F;
+    display: flex;
+    flex-direction: row;
+    font-size: 19.8px;
+    align-items:center;
+    font-family: Lato;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-width:3px;
+    border-color: rgb(245,246,247);
+}
+.img{
+    height:50px;
+    width:40px;
+    filter:invert(100%);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.but-text{
+    font-family: Lato;
+    color:#F5F6F7;
+    display:flex;
+    width:710px;
+}
+.double-arrow{
+    display:flex;
+    flex:1
+    align-items: right;
+    filter:invert(100%);
+}
+.but:hover{
+    filter:invert(90%);
+}
+.all{
+    display:flex;
+    flex-direction: column;
+    justify-content:s;
+    align-items: center;
+    margin-top: 41px;
+}
+.get-started{
+    height:54.5px;
+    width:500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Lato,sans-serif;
+    background-color:#FEAC32;
+    font-size: 27px;
+    color: #0a0a23;
+    border-width: 3px;
+    border-color: #F1A02A;
+}
+.get-started:hover{
+    cursor: pointer;
+}
+.but :hover{
+    cursor: pointer;
+}
+.text4{
+    height:25px;
+    width:870px;
+    font-weight: bold;
+    font-size: 22.5px;
+    font-family: Lato,sans serif;
+    color:white;
+    padding-left: 92px;
+    margin-bottom: 25px;
+    margin-top:20px;
+}
+.text1{
+    text-align: left;
+    height:50px;
+    width:790px;
+    font-weight: bolder;
+    font-size: 45px;
+    font-family: Lato,sans serif;
+    color:white;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+.text3{
+    text-align: left;
+    height:50px;
+    width:790px;
+    font-weight: bolder;
+    font-size: 45px;
+    font-family: Lato,sans serif;
+    color:white;
+    margin-top:40px;
+    margin-bottom:80px;
+}
+.text5{
+    height:54px;
+    width:870px;
+    font-size:18px;
+    font-family: Lato,sans serif;
+    color:white;
+    padding-left:87px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 170%;
+    height: 875px;
+    padding-top: 40px;
+    padding-bottom:40px;
+    padding-left:15px;
+    padding-right:15px;
+    background-color: #2A2A40;
+    margin-top:30px;
+    justify-content:space-evenly;
+    position: relative;
+}
+.Notes{
+    width: 500px;
+    position: absolute;
+    left: 100px;    
+}
+.Para2{
+    font-size: 16px;
+    font-family: Lato,sans serif;
+    color:white;
+    margin:15px;
+    padding-left: 60px;
+    text-align: left;
+    margin-left:20px;
+    width: 600px;
+}
+.Guides{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+}
+.list{
+    color:white;
+    font-family: Lato,sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    width: 300px;
+    list-style-type: style none;
+
+}
+.list:hover{
+     text-decoration: underline;
+     cursor: pointer;
+}
+.l1{
+    top:50px;
+    position:absolute;
+    left:10px;
+    text-align: left;
+}
+.l2{
+    top:50px;
+    position:absolute;
+    left: 340px;
+    text-align: left;
+}
+.TG{
+    position: absolute;
+    left:200px;
+    width: 300px;
+}
+.ul{
+    list-style-type: none;
+}
+.MA{
+    position: absolute;
+    top:570px;
+    left:200px;
+}
+.stores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top:560px;
+    left: 140px;
+    width:405px;
+    height:55px;
+}
+.apple-app-store{
+height: 180px;
+width: 195px;
+}
+.google-store{
+height: 180px;
+width: 195px;
+}
+.span{
+    text-decoration: underline;
+}
+.span:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.TDD{
+    font-size: 18px;
+    font-family: Lato,sans serif;
+    color:white;
+    margin:15px;
+    padding-left: 60px;
+    text-align: left;
+    margin-left:20px;
+    width: 600px;
+    font-weight: bolder;
+}
+.non-profit{
+    right:150px;
+    position: absolute;
+    bottom: 10px;
+    height: 60px;
+    width:1500px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.NPtext{
+    font-size: 16px;
+    font-family: Lato,sans serif;
+    color:white;
+    margin:15px;
+    padding-left: 60px;
+    text-align: left;
+    margin-left:20px;
+    width: 600px;
+}
+.NPtext:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.sign-in-button:hover{
+    cursor:pointer;
+}
+.world-button:hover{
+    cursor:pointer;
+}
