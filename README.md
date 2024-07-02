@@ -1,3 +1,3 @@
-﻿# FreeCodeCamp Opening page and login page clone
- 
+﻿# FreeCodeCamp Clone
+ FreeCodeCamp Home Page and Login Page Clone
 
